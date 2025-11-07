@@ -1,0 +1,191 @@
+CRITICAL - 2025-11-06 05:05:14 --> ErrorException: include(common_sidebar.php): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard]
+in APPPATH/Views/dashboard/index.php on line 42.
+ 1 APPPATH/Views/dashboard/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(common_sidebar.php): Failed to open stream: No such file or directory', '/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Views/dashboard/index.php', 42)
+ 2 APPPATH/Views/dashboard/index.php(42): include()
+ 3 SYSTEMPATH/View/View.php(226): include('/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Views/dashboard/index.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 5 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 6 APPPATH/Controllers/Dashboard.php(43): view('dashboard/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 05:12:24 --> ErrorException: Undefined property: stdClass::$name
+[Method: GET, Route: dashboard]
+in APPPATH/Controllers/Dashboard.php on line 23.
+ 1 APPPATH/Controllers/Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', '/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Controllers/Dashboard.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 05:16:41 --> ErrorException: Undefined property: stdClass::$name
+[Method: GET, Route: dashboard]
+in APPPATH/Controllers/Dashboard.php on line 25.
+ 1 APPPATH/Controllers/Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', '/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Controllers/Dashboard.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 05:16:42 --> ErrorException: Undefined property: stdClass::$name
+[Method: GET, Route: dashboard]
+in APPPATH/Controllers/Dashboard.php on line 25.
+ 1 APPPATH/Controllers/Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', '/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Controllers/Dashboard.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 05:16:58 --> ErrorException: Undefined property: stdClass::$name
+[Method: GET, Route: dashboard]
+in APPPATH/Controllers/Dashboard.php on line 25.
+ 1 APPPATH/Controllers/Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', '/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Controllers/Dashboard.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 05:36:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Screenshot 2025-10-25 at 10.37.22â_¯AM.png"
+[Method: GET, Route: uploads/reminders/Screenshot%202025-10-25%20at%2010.37.22%E2_%AFAM.png]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('uploads/reminders/Screenshot 2025-10-25 at 10.37.22â_¯AM.png')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('uploads/reminders/Screenshot 2025-10-25 at 10.37.22â_¯AM.png')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 05:46:19 --> ErrorException: Undefined variable $reminder
+[Method: GET, Route: reminders]
+in APPPATH/Views/reminders/index.php on line 137.
+ 1 APPPATH/Views/reminders/index.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reminder', '/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Views/reminders/index.php', 137)
+ 2 SYSTEMPATH/View/View.php(226): include('/Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Views/reminders/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 4 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('reminders/index', [], true)
+ 5 APPPATH/Controllers/ReminderController.php(26): view('reminders/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReminderController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReminderController))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 06:12:01 --> Error: Class "App\Controllers\FamilyModel" not found
+[Method: GET, Route: warranties]
+in APPPATH/Controllers/WarrantyController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\WarrantyController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WarrantyController))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 06:14:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "warranties/index.php"
+[Method: GET, Route: warranties]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warranties/index.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('warranties/index', [], true)
+ 3 APPPATH/Controllers/WarrantyController.php(20): view('warranties/index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\WarrantyController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WarrantyController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+ERROR - 2025-11-06 09:26:01 --> mysqli_sql_exception: Unknown column 'users.phone' in 'field list' in /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Model.php(925): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/viveksomasundaram/Desktop/my-projects/Remainder/app/Controllers/FamilyMembersController.php(35): CodeIgniter\Model->__call('get', Array)
+#6 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/CodeIgniter.php(933): App\Controllers\FamilyMembersController->index()
+#7 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FamilyMembersController))
+#8 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/viveksomasundaram/Desktop/my-projects/Remainder/system/rewrite.php(44): require_once('/Users/viveksom...')
+#13 {main}
+CRITICAL - 2025-11-06 09:26:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.phone' in 'field list'
+[Method: GET, Route: members]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = :family_members.family_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(925): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/FamilyMembersController.php(35): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FamilyMembersController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FamilyMembersController))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 09:26:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.phone' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = \'2\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = :family_members.family_id:', [...], false)
+ 4 SYSTEMPATH/Model.php(925): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/FamilyMembersController.php(35): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FamilyMembersController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FamilyMembersController))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
+CRITICAL - 2025-11-06 09:26:01 --> [Caused by] mysqli_sql_exception: Unknown column 'users.phone' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`name`, `users`.`email`, `users`.`phone`
+FROM `family_members`
+JOIN `users` ON `users`.`id` = `family_members`.`user_id`
+WHERE `family_members`.`family_id` = :family_members.family_id:', [...], false)
+ 5 SYSTEMPATH/Model.php(925): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FamilyMembersController.php(35): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\FamilyMembersController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FamilyMembersController))
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/viveksomasundaram/Desktop/my-projects/Remainder/public/index.php')
