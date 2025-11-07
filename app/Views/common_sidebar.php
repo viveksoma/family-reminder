@@ -22,8 +22,8 @@
         >
             <?php 
                 $uri = service('uri');
-                $firstSegment = $uri->getSegment(1) ?? 'home';
-                
+                $currentSegment = $uri->getTotalSegments() > 0 ? $uri->getSegment(1) : '';
+
                 // Ensure there is at least one segment before accessing it
                 $last_segment = $uri->getSegment($totalSegments);      
             ?>
