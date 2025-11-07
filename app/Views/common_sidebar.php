@@ -22,10 +22,10 @@
         >
             <?php 
                 $uri = service('uri'); 
-                $totalSegments = $uri->getTotalSegments() > 0 ? $uri->getSegment(1) : '';
-                
-                // Ensure there is at least one segment before accessing it
-                $last_segment = $uri->getSegment($totalSegments);      
+                $totalSegments = $uri->getTotalSegments();
+
+                // Get the last segment safely
+                $last_segment = $totalSegments > 0 ? $uri->getSegment($totalSegments) : '';
             ?>
             <li class="nav-item">
                 <a href="<?php echo base_url('dashboard'); ?>" class="nav-link <?php if($last_segment == 'dashboard' ) { echo 'active'; } ?>">
