@@ -1,16 +1,21 @@
+---
 deployment:
   tasks:
     - set -e
     - cd /home/familyre/repositories/family-reminder
 
-    # Use cPanel's built-in composer (if available)
-    - /usr/local/bin/composer install --no-dev --optimize-autoloader || composer install --no-dev --optimize-autoloader
-
+    # Set deploy path
     - export DEPLOYPATH=/home/familyre/public_html
-    - /bin/cp -R public/* $DEPLOYPATH
 
-    - openssl enc -d -aes-256-cbc -pbkdf2 -in writable/credentials.json.enc -out writable/credentials.json -pass pass:Avclinic@123
+    # Copy all necessary files (including vendor)
+    - /bin/cp -R app public system writable vendor composer.* $DEPLOYPATH
+    - /bin/cp -R .env $DEPLOYPATH || true
 
+    # Decrypt credentials.json
+    - openssl enc -d -aes-256-cbc -pbkdf2 -in writable/credentials.json.enc -out $DEPLOYPATH/writable/credentials.json -pass pass:Avclinic@123
+
+    # Fix index.php path for CI4 on cPanel
     - sed -i "s|require FCPATH\s*\.\s*'\.\./app/Config/Paths.php';|require __DIR__ . '/../repositories/family-reminder/app/Config/Paths.php';|" $DEPLOYPATH/index.php
 
-    - echo "Deployed at $(date)"
+    # Optional: debug log
+    - echo "Deployed successfully at $(date)"
