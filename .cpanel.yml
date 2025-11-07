@@ -11,9 +11,6 @@ deployment:
     - /bin/cp -R app public system writable vendor composer.* $DEPLOYPATH
     - /bin/cp -R .env $DEPLOYPATH || true
 
-    # Decrypt credentials.json
-    - openssl enc -d -aes-256-cbc -pbkdf2 -in writable/credentials.json.enc -out $DEPLOYPATH/writable/credentials.json -pass pass:Avclinic@123
-
     # Fix index.php path for CI4 on cPanel
     - sed -i "s|require FCPATH\s*\.\s*'\.\./app/Config/Paths.php';|require __DIR__ . '/../repositories/family-reminder/app/Config/Paths.php';|" $DEPLOYPATH/index.php
 
