@@ -21,9 +21,9 @@
             data-accordion="false"
         >
             <?php 
-                $uri = service('uri');
-                $currentSegment = $uri->getTotalSegments() > 0 ? $uri->getSegment(1) : '';
-
+                $uri = service('uri'); 
+                $totalSegments = $uri->getTotalSegments() > 0 ? $uri->getSegment(1) : '';
+                
                 // Ensure there is at least one segment before accessing it
                 $last_segment = $uri->getSegment($totalSegments);      
             ?>
