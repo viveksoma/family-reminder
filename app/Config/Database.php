@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'family_reminder',
+        'username'     => 'familyre_root',
+        'password'     => 'Hk*i-WmTzpTE^1D4',
+        'database'     => 'familyre_family_reminder',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
