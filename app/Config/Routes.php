@@ -5,13 +5,13 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Dashboard::index');
 $routes->get('/register', 'Auth::register');
 $routes->post('register', 'Auth::processRegister');
 $routes->get('login', 'Auth::login');
 $routes->post('login', 'Auth::processLogin');
 $routes->get('logout', 'Auth::logout');
 $routes->group('', ['filter' => 'auth'], function($routes) {
+    $routes->get('/', 'Dashboard::index');
     $routes->get('family/choose', 'Family::choose');
     $routes->post('family/handle', 'Family::handle');
     $routes->get('family/setActive/(:num)', 'Family::setActive/$1');
