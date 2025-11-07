@@ -50,6 +50,8 @@ class CronController extends Controller
 
                 if ($subject && $message) {
                     $email = \Config\Services::email();
+                    $email->setMailType('html'); // Send as HTML
+                    $email->setFrom('no-reply@familyreminders.in', 'Family Reminders');
                     $email->setTo($member['email']);
                     $email->setSubject($subject);
                     $email->setMessage($message);
